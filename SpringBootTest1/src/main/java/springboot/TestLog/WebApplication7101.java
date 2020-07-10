@@ -1,4 +1,4 @@
-package springboot.log;
+package springboot.TestLog;
 
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
@@ -8,7 +8,7 @@ import ch.qos.logback.classic.Logger;
 
 /**
  * 
-* @ClassName: WebApplication7101
+* @ClassName: WebApplication7103
 * @Description: SpringBoot的启动
 * @author dyk 
 * @date 2020-07-09 18:18:31
