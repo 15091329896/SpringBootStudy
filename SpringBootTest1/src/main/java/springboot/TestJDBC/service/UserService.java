@@ -20,7 +20,7 @@ public class UserService {
     JdbcTemplate jdbcTemplate;
     
     public Integer addUser(User user) {
-        return jdbcTemplate.update("insert into user (username,address) values (?,?);",
+        return jdbcTemplate.update(" insert into user (username,address) values (?,?); ",
                 user.getUsername(), user.getAddress());
     }
     
@@ -33,7 +33,7 @@ public class UserService {
     * @date 2020-07-10 18:26:05
      */
     public List<User> getAllUserFirst() {
-        return jdbcTemplate.query("select * from user;", new RowMapper<User>() {
+        return jdbcTemplate.query(" select * from user; ", new RowMapper<User>() {
             @Override
             public User mapRow(ResultSet resultSet, int i) throws SQLException {
                 User user = new User();

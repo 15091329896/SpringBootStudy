@@ -24,6 +24,7 @@ public class WebApplication7103 {
 	public static void main(String[] args) {
 
 		SpringApplication.run(WebApplication7103.class, args);
+		logger.info(" WebApplication7103  启动成功！ ");
 
 	}
 
