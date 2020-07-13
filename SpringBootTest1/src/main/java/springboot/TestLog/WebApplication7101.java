@@ -9,7 +9,7 @@ import ch.qos.logback.classic.Logger;
 /**
  * 
 * @ClassName: WebApplication7131
-* @Description: SpringBoot的启动
+* @Description: SpringBoot的logback框架
 * @author dyk 
 * @date 2020-07-09 18:18:31
 *
