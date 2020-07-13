@@ -68,6 +68,13 @@
 			<version>2.1.1</version>
 		</dependency>
 
+		<!-- 配置AOP实现应用性能监测 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-aop</artifactId>
+		</dependency>
+		
+
 
 	</dependencies>
 

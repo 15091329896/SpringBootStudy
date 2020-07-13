@@ -1,4 +1,4 @@
-package springboot.TestJDBC;
+package springboot.TestAOP;
 
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
@@ -9,23 +9,18 @@ import ch.qos.logback.classic.Logger;
 /**
  * 
  * @ClassName: WebApplication7132
- * @Description: SpringBoot的启动
+ * @Description: SpringBoot使用AOP
  * @author dyk
- * @date 2020-07-09 18:18:31
+ * @date 2020-07-13 10:03:00
  */
-
 @SpringBootApplication
-//@Configuration
-//@EnableAutoConfiguration
-//@ComponentScan
-public class WebApplication7103 {
-	private static final Logger logger = (Logger) LoggerFactory.getLogger(WebApplication7103.class);
+public class WebApplication7132 {
+	private static final Logger logger = (Logger) LoggerFactory.getLogger(WebApplication7132.class);
 
 	public static void main(String[] args) {
 
-		SpringApplication.run(WebApplication7103.class, args);
+		SpringApplication.run(WebApplication7132.class, args);
 		logger.info(" WebApplication7132  启动成功！ ");
-
 	}
 
 }
