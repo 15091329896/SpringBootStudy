@@ -27,19 +27,15 @@ class JdbcApplicationTests {
         Integer addUser = userService.addUser(user);
         if (addUser > 0) {
         	logger.info(" 新增成功-->  addUser =  " + addUser);
-        	System.out.println(" 新增成功-->  addUser =  " + addUser);
 		} else {
 			logger.error(" 新增失败-->  addUser =  " + addUser);
-			System.err.println(" 新增失败-->  addUser =  " + addUser);
 		}
         
     }
     
     @Test
     public void queryUsers() {
-        List<User> allUserFirst = userService.getAllUserFirst();
-        System.out.println(allUserFirst);
-        logger.info(" 查询成功 --》 allUserFirst = " + allUserFirst.toString());
-        System.out.println(" 查询成功 --》 allUserFirst = " + allUserFirst.toString());
+        List<User> allUsers = userService.getAllUserFirst();
+        logger.info(" 查询成功 --》 allUserFirst = " + allUsers.toString());
     }
 }

@@ -8,7 +8,7 @@ import ch.qos.logback.classic.Logger;
 
 /**
  * 
- * @ClassName: WebApplication7103
+ * @ClassName: WebApplication7131
  * @Description: SpringBoot的启动
  * @author dyk
  * @date 2020-07-09 18:18:31
@@ -24,7 +24,7 @@ public class WebApplication7103 {
 	public static void main(String[] args) {
 
 		SpringApplication.run(WebApplication7103.class, args);
-		logger.info(" WebApplication7103  启动成功！ ");
+		logger.info(" WebApplication7131  启动成功！ ");
 
 	}
 
