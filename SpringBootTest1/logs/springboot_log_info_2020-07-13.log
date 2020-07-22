@@ -1,0 +1,333 @@
+2020-07-13 15:09:05.734 | main | INFO  | o.s.b.StartupInfoLogger:StartupInfoLogger.java(55) | Starting WebApplication7101 on DESKTOP-S9HTR25 with PID 15012 (D:\code\mycode\SpringBootStudy\SpringBootTest1\target\classes started by admin in D:\code\mycode\SpringBootStudy\SpringBootTest1)
+2020-07-13 15:09:05.737 | main | INFO  | o.s.b.SpringApplication:SpringApplication.java(651) | No active profile set, falling back to default profiles: default
+2020-07-13 15:09:06.493 | main | WARN  | o.m.logging.Logger:Logger.java(44) | No MyBatis mapper was found in '[springboot.TestLog]' package. Please check your configuration.
+2020-07-13 15:09:07.201 | main | INFO  | o.s.b.w.e.t.TomcatWebServer:TomcatWebServer.java(108) | Tomcat initialized with port(s): 8080 (http)
+2020-07-13 15:09:07.214 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-13 15:09:07.215 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Starting service [Tomcat]
+2020-07-13 15:09:07.216 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-13 15:09:07.301 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Initializing Spring embedded WebApplicationContext
+2020-07-13 15:09:07.302 | main | INFO  | o.s.b.w.s.c.ServletWebServerApplicationContext:ServletWebServerApplicationContext.java(285) | Root WebApplicationContext: initialization completed in 1512 ms
+2020-07-13 15:09:07.491 | main | INFO  | o.s.s.c.ExecutorConfigurationSupport:ExecutorConfigurationSupport.java(181) | Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-13 15:09:07.874 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Starting ProtocolHandler ["http-nio-8080"]
+2020-07-13 15:09:07.905 | main | INFO  | o.s.b.w.e.t.TomcatWebServer:TomcatWebServer.java(220) | Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-13 15:09:07.916 | main | INFO  | o.s.b.StartupInfoLogger:StartupInfoLogger.java(61) | Started WebApplication7101 in 2.69 seconds (JVM running for 3.179)
+2020-07-13 15:09:07.920 | main | INFO  | s.T.WebApplication7101:WebApplication7101.java(33) | 日志测试
+2020-07-13 16:21:24.486 | main | INFO  | o.s.b.StartupInfoLogger:StartupInfoLogger.java(55) | Starting WebApplication7132 on DESKTOP-S9HTR25 with PID 32 (D:\code\mycode\SpringBootStudy\SpringBootTest1\target\classes started by admin in D:\code\mycode\SpringBootStudy\SpringBootTest1)
+2020-07-13 16:21:24.491 | main | INFO  | o.s.b.SpringApplication:SpringApplication.java(651) | No active profile set, falling back to default profiles: default
+2020-07-13 16:21:25.290 | main | WARN  | o.m.logging.Logger:Logger.java(44) | No MyBatis mapper was found in '[springboot.TestAOP]' package. Please check your configuration.
+2020-07-13 16:21:26.370 | main | INFO  | o.s.b.w.e.t.TomcatWebServer:TomcatWebServer.java(108) | Tomcat initialized with port(s): 8080 (http)
+2020-07-13 16:21:26.387 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-13 16:21:26.389 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Starting service [Tomcat]
+2020-07-13 16:21:26.389 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-13 16:21:26.489 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Initializing Spring embedded WebApplicationContext
+2020-07-13 16:21:26.490 | main | INFO  | o.s.b.w.s.c.ServletWebServerApplicationContext:ServletWebServerApplicationContext.java(285) | Root WebApplicationContext: initialization completed in 1923 ms
+2020-07-13 16:21:26.988 | main | INFO  | o.s.s.c.ExecutorConfigurationSupport:ExecutorConfigurationSupport.java(181) | Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-13 16:21:27.916 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Starting ProtocolHandler ["http-nio-8080"]
+2020-07-13 16:21:27.957 | main | INFO  | o.s.b.w.e.t.TomcatWebServer:TomcatWebServer.java(220) | Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-13 16:21:27.977 | main | INFO  | o.s.b.StartupInfoLogger:StartupInfoLogger.java(61) | Started WebApplication7132 in 4.009 seconds (JVM running for 4.489)
+2020-07-13 16:21:27.982 | main | INFO  | s.T.WebApplication7132:WebApplication7132.java(24) |  WebApplication7132  启动成功！ 
+2020-07-13 16:22:01.076 | http-nio-8080-exec-1 | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-13 16:22:01.077 | http-nio-8080-exec-1 | INFO  | o.s.w.s.FrameworkServlet:FrameworkServlet.java(525) | Initializing Servlet 'dispatcherServlet'
+2020-07-13 16:22:01.093 | http-nio-8080-exec-1 | INFO  | o.s.w.s.FrameworkServlet:FrameworkServlet.java(547) | Completed initialization in 16 ms
+2020-07-13 16:26:48.591 | main | INFO  | o.s.b.StartupInfoLogger:StartupInfoLogger.java(55) | Starting WebApplication7132 on DESKTOP-S9HTR25 with PID 9004 (D:\code\mycode\SpringBootStudy\SpringBootTest1\target\classes started by admin in D:\code\mycode\SpringBootStudy\SpringBootTest1)
+2020-07-13 16:26:48.596 | main | INFO  | o.s.b.SpringApplication:SpringApplication.java(651) | No active profile set, falling back to default profiles: default
+2020-07-13 16:26:49.377 | main | WARN  | o.m.logging.Logger:Logger.java(44) | No MyBatis mapper was found in '[springboot.TestAOP]' package. Please check your configuration.
+2020-07-13 16:26:50.431 | main | INFO  | o.s.b.w.e.t.TomcatWebServer:TomcatWebServer.java(108) | Tomcat initialized with port(s): 8080 (http)
+2020-07-13 16:26:50.445 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-13 16:26:50.446 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Starting service [Tomcat]
+2020-07-13 16:26:50.446 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-13 16:26:50.536 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Initializing Spring embedded WebApplicationContext
+2020-07-13 16:26:50.537 | main | INFO  | o.s.b.w.s.c.ServletWebServerApplicationContext:ServletWebServerApplicationContext.java(285) | Root WebApplicationContext: initialization completed in 1866 ms
+2020-07-13 16:26:51.028 | main | INFO  | o.s.s.c.ExecutorConfigurationSupport:ExecutorConfigurationSupport.java(181) | Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-13 16:26:51.848 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Starting ProtocolHandler ["http-nio-8080"]
+2020-07-13 16:26:51.879 | main | INFO  | o.s.b.w.e.t.TomcatWebServer:TomcatWebServer.java(220) | Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-13 16:26:51.895 | main | INFO  | o.s.b.StartupInfoLogger:StartupInfoLogger.java(61) | Started WebApplication7132 in 3.822 seconds (JVM running for 4.315)
+2020-07-13 16:26:51.897 | main | INFO  | s.T.WebApplication7132:WebApplication7132.java(24) |  WebApplication7132  启动成功！ 
+2020-07-13 16:26:58.780 | http-nio-8080-exec-1 | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-13 16:26:58.781 | http-nio-8080-exec-1 | INFO  | o.s.w.s.FrameworkServlet:FrameworkServlet.java(525) | Initializing Servlet 'dispatcherServlet'
+2020-07-13 16:26:58.794 | http-nio-8080-exec-1 | INFO  | o.s.w.s.FrameworkServlet:FrameworkServlet.java(547) | Completed initialization in 13 ms
+2020-07-13 16:28:03.943 | main | INFO  | o.s.b.StartupInfoLogger:StartupInfoLogger.java(55) | Starting WebApplication7132 on DESKTOP-S9HTR25 with PID 9844 (D:\code\mycode\SpringBootStudy\SpringBootTest1\target\classes started by admin in D:\code\mycode\SpringBootStudy\SpringBootTest1)
+2020-07-13 16:28:03.947 | main | INFO  | o.s.b.SpringApplication:SpringApplication.java(651) | No active profile set, falling back to default profiles: default
+2020-07-13 16:28:04.702 | main | WARN  | o.m.logging.Logger:Logger.java(44) | No MyBatis mapper was found in '[springboot.TestAOP]' package. Please check your configuration.
+2020-07-13 16:28:05.749 | main | INFO  | o.s.b.w.e.t.TomcatWebServer:TomcatWebServer.java(108) | Tomcat initialized with port(s): 8080 (http)
+2020-07-13 16:28:05.761 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-13 16:28:05.762 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Starting service [Tomcat]
+2020-07-13 16:28:05.762 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-13 16:28:05.850 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Initializing Spring embedded WebApplicationContext
+2020-07-13 16:28:05.851 | main | INFO  | o.s.b.w.s.c.ServletWebServerApplicationContext:ServletWebServerApplicationContext.java(285) | Root WebApplicationContext: initialization completed in 1851 ms
+2020-07-13 16:28:06.371 | main | INFO  | o.s.s.c.ExecutorConfigurationSupport:ExecutorConfigurationSupport.java(181) | Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-13 16:28:07.212 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Starting ProtocolHandler ["http-nio-8080"]
+2020-07-13 16:28:07.250 | main | INFO  | o.s.b.w.e.t.TomcatWebServer:TomcatWebServer.java(220) | Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-13 16:28:07.263 | main | INFO  | o.s.b.StartupInfoLogger:StartupInfoLogger.java(61) | Started WebApplication7132 in 3.843 seconds (JVM running for 4.318)
+2020-07-13 16:28:07.267 | main | INFO  | s.T.WebApplication7132:WebApplication7132.java(24) |  WebApplication7132  启动成功！ 
+2020-07-13 16:28:24.843 | http-nio-8080-exec-1 | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-13 16:28:24.843 | http-nio-8080-exec-1 | INFO  | o.s.w.s.FrameworkServlet:FrameworkServlet.java(525) | Initializing Servlet 'dispatcherServlet'
+2020-07-13 16:28:24.858 | http-nio-8080-exec-1 | INFO  | o.s.w.s.FrameworkServlet:FrameworkServlet.java(547) | Completed initialization in 15 ms
+2020-07-13 16:33:06.479 | main | INFO  | o.s.b.StartupInfoLogger:StartupInfoLogger.java(55) | Starting WebApplication7132 on DESKTOP-S9HTR25 with PID 3416 (D:\code\mycode\SpringBootStudy\SpringBootTest1\target\classes started by admin in D:\code\mycode\SpringBootStudy\SpringBootTest1)
+2020-07-13 16:33:06.483 | main | INFO  | o.s.b.SpringApplication:SpringApplication.java(651) | No active profile set, falling back to default profiles: default
+2020-07-13 16:33:06.681 | main | WARN  | o.s.c.s.AbstractApplicationContext:AbstractApplicationContext.java(559) | Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [springboot.TestAOP.WebApplication7132]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'indexController' for bean class [springboot.TestJDBC.IndexController] conflicts with existing, non-compatible bean definition of same name and class [springboot.TestAOP.IndexController]
+2020-07-13 16:33:06.691 | main | ERROR | o.s.b.SpringApplication:SpringApplication.java(837) | Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [springboot.TestAOP.WebApplication7132]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'indexController' for bean class [springboot.TestJDBC.IndexController] conflicts with existing, non-compatible bean definition of same name and class [springboot.TestAOP.IndexController]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:188)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:319)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:236)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:280)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:96)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:707)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:533)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at springboot.TestAOP.WebApplication7132.main(WebApplication7132.java:25)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'indexController' for bean class [springboot.TestJDBC.IndexController] conflicts with existing, non-compatible bean definition of same name and class [springboot.TestAOP.IndexController]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:349)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:287)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:132)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:295)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:206)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:174)
+	... 14 common frames omitted
+2020-07-13 16:33:19.818 | main | INFO  | o.s.b.StartupInfoLogger:StartupInfoLogger.java(55) | Starting WebApplication7132 on DESKTOP-S9HTR25 with PID 10052 (D:\code\mycode\SpringBootStudy\SpringBootTest1\target\classes started by admin in D:\code\mycode\SpringBootStudy\SpringBootTest1)
+2020-07-13 16:33:19.822 | main | INFO  | o.s.b.SpringApplication:SpringApplication.java(651) | No active profile set, falling back to default profiles: default
+2020-07-13 16:33:20.019 | main | WARN  | o.s.c.s.AbstractApplicationContext:AbstractApplicationContext.java(559) | Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [springboot.TestAOP.WebApplication7132]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'indexController' for bean class [springboot.TestJDBC.IndexController] conflicts with existing, non-compatible bean definition of same name and class [springboot.TestAOP.IndexController]
+2020-07-13 16:33:20.029 | main | ERROR | o.s.b.SpringApplication:SpringApplication.java(837) | Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [springboot.TestAOP.WebApplication7132]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'indexController' for bean class [springboot.TestJDBC.IndexController] conflicts with existing, non-compatible bean definition of same name and class [springboot.TestAOP.IndexController]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:188)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:319)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:236)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:280)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:96)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:707)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:533)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at springboot.TestAOP.WebApplication7132.main(WebApplication7132.java:25)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'indexController' for bean class [springboot.TestJDBC.IndexController] conflicts with existing, non-compatible bean definition of same name and class [springboot.TestAOP.IndexController]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:349)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:287)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:132)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:295)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:206)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:174)
+	... 14 common frames omitted
+2020-07-13 16:34:10.186 | main | INFO  | o.s.b.StartupInfoLogger:StartupInfoLogger.java(55) | Starting WebApplication7132 on DESKTOP-S9HTR25 with PID 856 (D:\code\mycode\SpringBootStudy\SpringBootTest1\target\classes started by admin in D:\code\mycode\SpringBootStudy\SpringBootTest1)
+2020-07-13 16:34:10.190 | main | INFO  | o.s.b.SpringApplication:SpringApplication.java(651) | No active profile set, falling back to default profiles: default
+2020-07-13 16:34:10.940 | main | WARN  | o.m.logging.Logger:Logger.java(44) | No MyBatis mapper was found in '[springboot.TestAOP]' package. Please check your configuration.
+2020-07-13 16:34:11.984 | main | INFO  | o.s.b.w.e.t.TomcatWebServer:TomcatWebServer.java(108) | Tomcat initialized with port(s): 8080 (http)
+2020-07-13 16:34:11.996 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-13 16:34:11.997 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Starting service [Tomcat]
+2020-07-13 16:34:11.998 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-13 16:34:12.082 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Initializing Spring embedded WebApplicationContext
+2020-07-13 16:34:12.082 | main | INFO  | o.s.b.w.s.c.ServletWebServerApplicationContext:ServletWebServerApplicationContext.java(285) | Root WebApplicationContext: initialization completed in 1835 ms
+2020-07-13 16:34:12.571 | main | INFO  | o.s.s.c.ExecutorConfigurationSupport:ExecutorConfigurationSupport.java(181) | Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-13 16:34:13.465 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Starting ProtocolHandler ["http-nio-8080"]
+2020-07-13 16:34:13.510 | main | INFO  | o.s.b.w.e.t.TomcatWebServer:TomcatWebServer.java(220) | Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-13 16:34:13.525 | main | INFO  | o.s.b.StartupInfoLogger:StartupInfoLogger.java(61) | Started WebApplication7132 in 3.844 seconds (JVM running for 4.314)
+2020-07-13 16:34:13.529 | main | INFO  | s.T.WebApplication7132:WebApplication7132.java(26) |  WebApplication7132  启动成功！ 
+2020-07-13 16:34:21.065 | http-nio-8080-exec-2 | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-13 16:34:21.065 | http-nio-8080-exec-2 | INFO  | o.s.w.s.FrameworkServlet:FrameworkServlet.java(525) | Initializing Servlet 'dispatcherServlet'
+2020-07-13 16:34:21.079 | http-nio-8080-exec-2 | INFO  | o.s.w.s.FrameworkServlet:FrameworkServlet.java(547) | Completed initialization in 13 ms
+2020-07-13 16:36:26.608 | main | INFO  | o.s.b.StartupInfoLogger:StartupInfoLogger.java(55) | Starting WebApplication7132 on DESKTOP-S9HTR25 with PID 13704 (D:\code\mycode\SpringBootStudy\SpringBootTest1\target\classes started by admin in D:\code\mycode\SpringBootStudy\SpringBootTest1)
+2020-07-13 16:36:26.612 | main | INFO  | o.s.b.SpringApplication:SpringApplication.java(651) | No active profile set, falling back to default profiles: default
+2020-07-13 16:36:27.371 | main | WARN  | o.m.logging.Logger:Logger.java(44) | No MyBatis mapper was found in '[springboot.TestAOP]' package. Please check your configuration.
+2020-07-13 16:36:27.753 | main | WARN  | o.s.c.s.AbstractApplicationContext:AbstractApplicationContext.java(559) | Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: springboot.TestAOP [Xlint:invalidAbsoluteTypeName]
+2020-07-13 16:36:27.764 | main | INFO  | o.s.b.a.l.ConditionEvaluationReportLoggingListener:ConditionEvaluationReportLoggingListener.java(136) | 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-13 16:36:27.769 | main | ERROR | o.s.b.SpringApplication:SpringApplication.java(837) | Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: springboot.TestAOP [Xlint:invalidAbsoluteTypeName]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:161)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at springboot.TestAOP.WebApplication7132.main(WebApplication7132.java:23)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: springboot.TestAOP [Xlint:invalidAbsoluteTypeName]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:212)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:177)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:158)
+	... 9 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: springboot.TestAOP [Xlint:invalidAbsoluteTypeName]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:111)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:92)
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:101)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:251)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1141)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1114)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:506)
+	... 16 common frames omitted
+Caused by: java.lang.IllegalArgumentException: warning no match for this type name: springboot.TestAOP [Xlint:invalidAbsoluteTypeName]
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:319)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:227)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.obtainPointcutExpression(AspectJExpressionPointcut.java:198)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:177)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:226)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:289)
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:321)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:128)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:97)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:78)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:347)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:299)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	... 38 common frames omitted
+2020-07-13 16:38:42.152 | main | INFO  | o.s.b.StartupInfoLogger:StartupInfoLogger.java(55) | Starting WebApplication7132 on DESKTOP-S9HTR25 with PID 6604 (D:\code\mycode\SpringBootStudy\SpringBootTest1\target\classes started by admin in D:\code\mycode\SpringBootStudy\SpringBootTest1)
+2020-07-13 16:38:42.156 | main | INFO  | o.s.b.SpringApplication:SpringApplication.java(651) | No active profile set, falling back to default profiles: default
+2020-07-13 16:38:42.926 | main | WARN  | o.m.logging.Logger:Logger.java(44) | No MyBatis mapper was found in '[springboot.TestAOP]' package. Please check your configuration.
+2020-07-13 16:38:43.320 | main | WARN  | o.s.c.s.AbstractApplicationContext:AbstractApplicationContext.java(559) | Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: springboot.TestAOP [Xlint:invalidAbsoluteTypeName]
+2020-07-13 16:38:43.331 | main | INFO  | o.s.b.a.l.ConditionEvaluationReportLoggingListener:ConditionEvaluationReportLoggingListener.java(136) | 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-13 16:38:43.336 | main | ERROR | o.s.b.SpringApplication:SpringApplication.java(837) | Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: springboot.TestAOP [Xlint:invalidAbsoluteTypeName]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:161)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at springboot.TestAOP.WebApplication7132.main(WebApplication7132.java:23)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: springboot.TestAOP [Xlint:invalidAbsoluteTypeName]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:212)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:177)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:158)
+	... 9 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: springboot.TestAOP [Xlint:invalidAbsoluteTypeName]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:111)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:92)
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:101)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:251)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1141)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1114)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:506)
+	... 16 common frames omitted
+Caused by: java.lang.IllegalArgumentException: warning no match for this type name: springboot.TestAOP [Xlint:invalidAbsoluteTypeName]
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:319)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:227)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.obtainPointcutExpression(AspectJExpressionPointcut.java:198)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:177)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:226)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:289)
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:321)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:128)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:97)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:78)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:347)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:299)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	... 38 common frames omitted
+2020-07-13 16:39:35.669 | main | INFO  | o.s.b.StartupInfoLogger:StartupInfoLogger.java(55) | Starting WebApplication7132 on DESKTOP-S9HTR25 with PID 3264 (D:\code\mycode\SpringBootStudy\SpringBootTest1\target\classes started by admin in D:\code\mycode\SpringBootStudy\SpringBootTest1)
+2020-07-13 16:39:35.673 | main | INFO  | o.s.b.SpringApplication:SpringApplication.java(651) | No active profile set, falling back to default profiles: default
+2020-07-13 16:39:36.445 | main | WARN  | o.m.logging.Logger:Logger.java(44) | No MyBatis mapper was found in '[springboot.TestAOP]' package. Please check your configuration.
+2020-07-13 16:39:37.512 | main | INFO  | o.s.b.w.e.t.TomcatWebServer:TomcatWebServer.java(108) | Tomcat initialized with port(s): 8080 (http)
+2020-07-13 16:39:37.525 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-13 16:39:37.526 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Starting service [Tomcat]
+2020-07-13 16:39:37.526 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-13 16:39:37.611 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Initializing Spring embedded WebApplicationContext
+2020-07-13 16:39:37.612 | main | INFO  | o.s.b.w.s.c.ServletWebServerApplicationContext:ServletWebServerApplicationContext.java(285) | Root WebApplicationContext: initialization completed in 1885 ms
+2020-07-13 16:39:38.214 | main | INFO  | o.s.s.c.ExecutorConfigurationSupport:ExecutorConfigurationSupport.java(181) | Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-13 16:39:39.362 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Starting ProtocolHandler ["http-nio-8080"]
+2020-07-13 16:39:39.403 | main | INFO  | o.s.b.w.e.t.TomcatWebServer:TomcatWebServer.java(220) | Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-13 16:39:39.420 | main | INFO  | o.s.b.StartupInfoLogger:StartupInfoLogger.java(61) | Started WebApplication7132 in 4.264 seconds (JVM running for 4.739)
+2020-07-13 16:39:39.422 | main | INFO  | s.T.WebApplication7132:WebApplication7132.java(24) |  WebApplication7132  启动成功！ 
+2020-07-13 16:39:43.689 | http-nio-8080-exec-1 | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-13 16:39:43.690 | http-nio-8080-exec-1 | INFO  | o.s.w.s.FrameworkServlet:FrameworkServlet.java(525) | Initializing Servlet 'dispatcherServlet'
+2020-07-13 16:39:43.711 | http-nio-8080-exec-1 | INFO  | o.s.w.s.FrameworkServlet:FrameworkServlet.java(547) | Completed initialization in 21 ms
+2020-07-13 16:40:15.792 | main | INFO  | o.s.b.StartupInfoLogger:StartupInfoLogger.java(55) | Starting WebApplication7132 on DESKTOP-S9HTR25 with PID 11048 (D:\code\mycode\SpringBootStudy\SpringBootTest1\target\classes started by admin in D:\code\mycode\SpringBootStudy\SpringBootTest1)
+2020-07-13 16:40:15.796 | main | INFO  | o.s.b.SpringApplication:SpringApplication.java(651) | No active profile set, falling back to default profiles: default
+2020-07-13 16:40:16.568 | main | WARN  | o.m.logging.Logger:Logger.java(44) | No MyBatis mapper was found in '[springboot.TestAOP]' package. Please check your configuration.
+2020-07-13 16:40:17.606 | main | INFO  | o.s.b.w.e.t.TomcatWebServer:TomcatWebServer.java(108) | Tomcat initialized with port(s): 8080 (http)
+2020-07-13 16:40:17.618 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-13 16:40:17.619 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Starting service [Tomcat]
+2020-07-13 16:40:17.620 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-13 16:40:17.706 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Initializing Spring embedded WebApplicationContext
+2020-07-13 16:40:17.707 | main | INFO  | o.s.b.w.s.c.ServletWebServerApplicationContext:ServletWebServerApplicationContext.java(285) | Root WebApplicationContext: initialization completed in 1849 ms
+2020-07-13 16:40:18.229 | main | INFO  | o.s.s.c.ExecutorConfigurationSupport:ExecutorConfigurationSupport.java(181) | Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-13 16:40:19.130 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Starting ProtocolHandler ["http-nio-8080"]
+2020-07-13 16:40:19.177 | main | INFO  | o.s.b.w.e.t.TomcatWebServer:TomcatWebServer.java(220) | Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-13 16:40:19.193 | main | INFO  | o.s.b.StartupInfoLogger:StartupInfoLogger.java(61) | Started WebApplication7132 in 3.91 seconds (JVM running for 4.377)
+2020-07-13 16:40:19.197 | main | INFO  | s.T.WebApplication7132:WebApplication7132.java(24) |  WebApplication7132  启动成功！ 
+2020-07-13 16:40:31.287 | http-nio-8080-exec-1 | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-13 16:40:31.288 | http-nio-8080-exec-1 | INFO  | o.s.w.s.FrameworkServlet:FrameworkServlet.java(525) | Initializing Servlet 'dispatcherServlet'
+2020-07-13 16:40:31.304 | http-nio-8080-exec-1 | INFO  | o.s.w.s.FrameworkServlet:FrameworkServlet.java(547) | Completed initialization in 16 ms
+2020-07-13 16:41:47.462 | main | INFO  | o.s.b.StartupInfoLogger:StartupInfoLogger.java(55) | Starting WebApplication7132 on DESKTOP-S9HTR25 with PID 6028 (D:\code\mycode\SpringBootStudy\SpringBootTest1\target\classes started by admin in D:\code\mycode\SpringBootStudy\SpringBootTest1)
+2020-07-13 16:41:47.466 | main | INFO  | o.s.b.SpringApplication:SpringApplication.java(651) | No active profile set, falling back to default profiles: default
+2020-07-13 16:41:48.256 | main | WARN  | o.m.logging.Logger:Logger.java(44) | No MyBatis mapper was found in '[springboot.TestAOP]' package. Please check your configuration.
+2020-07-13 16:41:49.349 | main | INFO  | o.s.b.w.e.t.TomcatWebServer:TomcatWebServer.java(108) | Tomcat initialized with port(s): 8080 (http)
+2020-07-13 16:41:49.362 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-13 16:41:49.363 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Starting service [Tomcat]
+2020-07-13 16:41:49.363 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-13 16:41:49.452 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Initializing Spring embedded WebApplicationContext
+2020-07-13 16:41:49.452 | main | INFO  | o.s.b.w.s.c.ServletWebServerApplicationContext:ServletWebServerApplicationContext.java(285) | Root WebApplicationContext: initialization completed in 1918 ms
+2020-07-13 16:41:50.015 | main | INFO  | o.s.s.c.ExecutorConfigurationSupport:ExecutorConfigurationSupport.java(181) | Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-13 16:41:50.909 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Starting ProtocolHandler ["http-nio-8080"]
+2020-07-13 16:41:50.942 | main | INFO  | o.s.b.w.e.t.TomcatWebServer:TomcatWebServer.java(220) | Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-13 16:41:50.957 | main | INFO  | o.s.b.StartupInfoLogger:StartupInfoLogger.java(61) | Started WebApplication7132 in 3.996 seconds (JVM running for 4.463)
+2020-07-13 16:41:50.962 | main | INFO  | s.T.WebApplication7132:WebApplication7132.java(24) |  WebApplication7132  启动成功！ 
+2020-07-13 16:41:52.346 | http-nio-8080-exec-2 | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-13 16:41:52.347 | http-nio-8080-exec-2 | INFO  | o.s.w.s.FrameworkServlet:FrameworkServlet.java(525) | Initializing Servlet 'dispatcherServlet'
+2020-07-13 16:41:52.366 | http-nio-8080-exec-2 | INFO  | o.s.w.s.FrameworkServlet:FrameworkServlet.java(547) | Completed initialization in 19 ms
