@@ -8,7 +8,7 @@ import ch.qos.logback.classic.Logger;
 
 /**
  * 
- * @ClassName: WebApplication7132
+ * @ClassName: WebApplication7171
  * @Description: SpringBoot使用AOP
  * @author dyk
  * @date 2020-07-13 10:03:00
@@ -20,7 +20,7 @@ public class WebApplication7132 {
 	public static void main(String[] args) {
 
 		SpringApplication.run(WebApplication7132.class, args);
-		logger.info(" WebApplication7132  启动成功！ ");
+		logger.info(" WebApplication7171  启动成功！ ");
 	}
 
 }

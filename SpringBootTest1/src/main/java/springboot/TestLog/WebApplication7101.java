@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * 
-* @ClassName: WebApplication7132
+* @ClassName: WebApplication7171
 * @Description: SpringBoot的logback框架
 * @author dyk 
 * @date 2020-07-09 18:18:31
