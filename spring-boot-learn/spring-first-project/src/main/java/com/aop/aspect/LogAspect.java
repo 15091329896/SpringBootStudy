@@ -1,6 +1,7 @@
 package com.aop.aspect;
 
 
+import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
 import org.springframework.stereotype.Component;
 
@@ -33,10 +34,10 @@ public class LogAspect {
         System.out.printf("函数返回后 处理");
     }
 
-//    @Around("point()")
-//    public void around(){
-//        System.out.println("函数调用环绕 处理");
-//    }
+    @Around("point()")
+    public void around(ProceedingJoinPoint joinPoint){
+        System.out.println("函数调用环绕 处理");
+    }
 
 
 }
