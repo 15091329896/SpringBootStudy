@@ -11,14 +11,14 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 
 @SpringBootApplication
 @ComponentScan(basePackages = { "com.common", "com.handlingException.controller" })
-public class SpringFirstProjectApplication extends WebMvcConfigurerAdapter {
+public class SpringInterceptApplication extends WebMvcConfigurerAdapter {
 
     @Autowired
     CommonInterceptor commonInterceptor;
 
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringFirstProjectApplication.class, args);
+        SpringApplication.run(SpringInterceptApplication.class, args);
         System.out.printf("启动成功");
     }
 

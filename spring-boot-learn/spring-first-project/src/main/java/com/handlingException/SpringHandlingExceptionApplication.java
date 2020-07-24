@@ -7,9 +7,9 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan(basePackages = {"com.common.handleException"})
-public class SpringFirstProjectApplication {
+public class SpringHandlingExceptionApplication {
     public static void main(String[] args) {
-        SpringApplication.run(SpringFirstProjectApplication.class, args);
+        SpringApplication.run(SpringHandlingExceptionApplication.class, args);
         System.out.printf("启动成功");
     }
 

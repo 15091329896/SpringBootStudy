@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/aopController")
 public class AopController {
  
+	
     @RequestMapping(value = "/Curry")
     public void Curry(){
         System.out.println("库里上场打球了！！");
