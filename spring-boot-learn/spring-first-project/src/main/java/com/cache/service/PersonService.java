@@ -30,4 +30,8 @@ public class PersonService {
 	public Person findPersonById(Integer id){
 		return personRepository.findPersonById(id);
 	}
+
+	public void save(Person person) {
+		personRepository.save(person);
+	}
 }

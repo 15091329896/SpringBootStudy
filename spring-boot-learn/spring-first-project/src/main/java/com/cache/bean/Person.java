@@ -14,6 +14,9 @@ public class Person {
 
     @Id
     private Integer id;
+
+//    表示数据库接收的名称最常是10个字符
+    @Column(length = 10)
     private String name;
     private String address;
 

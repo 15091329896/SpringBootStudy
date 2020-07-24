@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
+import javax.transaction.Transactional;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -31,7 +32,40 @@ public class PersonController {
         persons.add(person2);
         persons.add(person3);
         personService.saveAll(persons);
-        return "保存成功";
+        return "save 保存成功";
+    }
+
+    //springboot使用事务测试2
+//    http://localhost:8080/person/save2
+    @RequestMapping("/save2")
+    public String save2() {
+
+        Person person = new Person(1001, "陈怀海", "大连街");
+        Person person1 = new Person(1002, "李白", "碎叶城");
+        Person person2 = new Person(1003, "梭伦99999999999999999999999", "雅典");
+        Person person3 = new Person(1004, "那正红", "大连街");
+        personService.save(person1);
+        personService.save(person2);
+        personService.save(person3);
+        personService.save(person);
+        return " save2 保存成功";
+    }
+
+    //springboot使用事务测试2
+//    http://localhost:8080/person/save3
+    @RequestMapping("/save3")
+    @Transactional
+    public String save3() {
+
+        Person person = new Person(1001, "陈怀海", "大连街");
+        Person person1 = new Person(1002, "李白", "碎叶城");
+        Person person2 = new Person(1003, "梭伦99999999999999999999999", "雅典");
+        Person person3 = new Person(1004, "那正红", "大连街");
+        personService.save(person1);
+        personService.save(person2);
+        personService.save(person3);
+        personService.save(person);
+        return " save3 保存成功";
     }
 
 
