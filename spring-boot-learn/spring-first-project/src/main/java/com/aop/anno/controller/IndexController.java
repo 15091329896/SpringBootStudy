@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class IndexController {
 
-    //    http://localhost:8080/index
+    //    http://localhost:8082/index
     @GetMapping("/index")
     @DoneTime(param = "IndexController")
     public String index(){
@@ -15,7 +15,7 @@ public class IndexController {
         return "hello world";
     }
 
-    //    http://localhost:8080/index2
+    //    http://localhost:8082/index2
     @GetMapping("/index2")
     @DoneTime(param = "IndexController")
     public String index2(){

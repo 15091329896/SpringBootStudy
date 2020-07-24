@@ -14,7 +14,7 @@ import org.springframework.context.annotation.ComponentScan;
  * @date 2020-07-13 10:03:00
  */
 @SpringBootApplication
-@ComponentScan(basePackages={ "com.common.*", "com.aop.anno.*" })
+@ComponentScan(basePackages={ "com.common.executeUseTime", "com.aop.anno.*" })
 public class WebApplicationAopAnno {
 	private static final Logger logger = (Logger) LoggerFactory.getLogger(WebApplicationAopAnno.class);
 
