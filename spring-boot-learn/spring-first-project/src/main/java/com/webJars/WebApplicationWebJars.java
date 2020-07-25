@@ -19,7 +19,7 @@ public class WebApplicationWebJars {
 	public static void main(String[] args) {
 
 		SpringApplication.run(WebApplicationWebJars.class, args);
-		logger.info(" WebApplicationFreemark  启动成功！ ");
+		logger.info(" WebApplicationWebJars  启动成功！ ");
 	}
 
 }
