@@ -1,0 +1,41 @@
+private boolean action2(String s) {
+		Stack<Character> stack = new Stack<>();
+		for (int i = 0; i < s.length(); i++) {
+			char c = s.charAt(i);
+			boolean continueTip = true;
+			switch (c) {
+				case '(':
+					stack.push(c);
+					break;
+				case '{':
+					stack.push(c);
+					break;
+				case '[':
+					stack.push(c);
+					break;
+				default:
+					if(stack.isEmpty()) {
+						return false;
+					}
+					continueTip = false;
+					break;
+			}
+			if(continueTip) {
+				continue;
+			}
+			char topChar = stack.pop();
+			if (c == ')' && topChar != '(') {
+				return false;
+			} 
+			if (c == '}' && topChar != '{') {
+				return false;
+			} 
+			if (c == ']' && topChar != '[') {
+				return false;
+			}
+		}
+		if(stack.isEmpty()) {
+			return true;
+		}
+		return false;
+}
