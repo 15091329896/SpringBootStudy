@@ -1,19 +1,27 @@
 package com.mybatis;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import com.common.log.MyLog;
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
+@ComponentScan(basePackages = {"com.common.log", "com.mybatis.*"})
+@MapperScan(basePackages = {"com.mybatis.*"})
 public class SpringbootApplicatioMybatis {
 
-    private  static final Logger logger = LoggerFactory.getLogger(SpringbootApplicatioMybatis.class);
+    private static MyLog log;
 
     public static void main(String[] args) {
         SpringApplication.run(SpringbootApplicatioMybatis.class, args);
-        logger.info("启动成功");
+        log.logStart(SpringbootApplicatioMybatis.class);
+    }
+
+    @Autowired
+    public SpringbootApplicatioMybatis(MyLog log) {
+        SpringbootApplicatioMybatis.log = log;
     }
 
 }
