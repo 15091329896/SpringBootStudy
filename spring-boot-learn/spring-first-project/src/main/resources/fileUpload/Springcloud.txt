@@ -1,0 +1,8 @@
+spring cloud
+什么是Spring boot
+是一系列Spring框架的引导程序，相当于很多个Spring框架的整合程序
+是Spring组件的集成化管理程序
+spring boot就是一个spring组件的集成化的管理框架，减少配置或者不用配置
+降低了对环境的要求，项目执行变得简单
+spring简化了框架的使用，就是一个自动管理众多框架的一个框架
+
