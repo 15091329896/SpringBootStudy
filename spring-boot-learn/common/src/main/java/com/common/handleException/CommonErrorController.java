@@ -16,7 +16,6 @@ public class CommonErrorController implements ErrorController {
 
     private final String ERROR_PATH = "/error";
 
-
     @Override
     public String getErrorPath() {
         return ERROR_PATH;
